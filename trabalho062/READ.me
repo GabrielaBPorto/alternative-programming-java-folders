@@ -1,0 +1,35 @@
+Esse trabalho foi realizado por Gabriela Bairros Porto, login gbp16 e GRR20167286.
+
+Para realizar compilação utilize o Programa como código principal.
+
+Foi criado um modelo de classes que seguia a seguinte especificação:
+O modelo deve representar uma estrutura de diretórios (pastas) e arquivos. As características do modelo são:
+– uma pasta contém outras pastas e/ou arquivos. Arquivos não contém outros elementos;
+– ambos possuem nome;
+– deve ser possível imprimir o nome de ambos;
+– um arquivo possui :
+
+– uma extensão;
+– um tipo (texto, imagem ou pdf);
+– tamanho .
+
+O modelo de classes foi implementado seguindo o padrão Composite
+
+Os objetos foram ser instanciados usando o padrão FactoryMethod.
+
+Foi criado segundo o padrão Visitor:
+– um visitor que permita imprimir o nome das pastas e arquivos
+– um visitor que permita imprimir o nome dos arquivos de tipo texto.
+
+A classe Programa possui a parte principal do código que:
+Instancia menos 3 Pastas e 4 arquivos, sendo ao menos dois texto (seguindo o padrão FactoryMethod).
+Usa os dois visitors.
+
+O visitante que imprime o nome das pastas e arquivos possui uma saida formatada:
+Nome da Pasta passada pelo visitante
+- Pastas e arquivos presentes dentro da pasta "principal"
+-- Subpastas e arquivos presentes nas subpastas da pasta "principal"
+
+Segue-se assim por diante.
+
+O visitante que imprime o nome dos arquivos não possui nenhuma saida formatada.

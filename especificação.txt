@@ -1,0 +1,34 @@
+1) Criar um modelo de classes seguindo a seguinte especificação:
+
+O modelo deve representar uma estrutura de diretórios (pastas) e arquivos. As características do modelo são:
+– uma pasta contém outras pastas e/ou arquivos. Arquivos não contém outros elementos;
+– ambos possuem nome;
+– deve ser possível imprimir o nome de ambos;
+– um arquivo possui :
+
+– uma extensão;
+– um tipo (texto, imagem ou pdf);
+– tamanho .
+
+1.1) O modelo de classes deve ser implementado seguinto o padrão Composite
+
+2) Os objetos devem ser instanciados usando o padrão FactoryMethod.
+
+3) Segundo o padrão Visitor, criar:
+– um visitor que permita imprimir o nome das pastas e arquivos
+– um visitor que permita imprimir o nome dos arquivos de tipo texto.
+
+4) USO: Criar uma classe Programa que :
+
+4.1) instancie pelo menos 3 Pastas e 4 arquivos, sendo ao menos dois texto (seguindo o padrão FactoryMethod).
+4.2) use os dois visitors.
+
+Nota.: não é necessário criar arquivos e pastas fisicamente, apenas o modelo objeto.
+
+ENTREGA
+Todas as classes (fontes) devem estar em uma mesma pasta e compactadas em um arquivo trabalho062 (tar.gz ou zip). Trabalhos sem os fontes não serão considerados. Os trabalhos deverão compilar e rodar facilmente nos servidores do Departamento de Informática.
+
+DATA DE ENTREGA : 24.maio.2018. Cada dia de atraso será descontado 10 pontos da nota.
+
+MODO DE ENTREGA : enviar o arquivo trabalho062.jar por email para marcos.ddf _at_ inf.ufpr.br (até as 24h da data final).
+No corpo do email, colocar o nome e GRR do aluno. No assunto, preencher com “Entrega trabalho 062”.
